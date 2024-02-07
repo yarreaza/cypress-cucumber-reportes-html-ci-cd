@@ -1,0 +1,292 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Pruebas en página login",
+    "line": 1,
+    "id": "pruebas-en-página-login",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "pruebas-en-página-login;tc-1.-login-válido",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "TC-1. Login válido",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "un usuario accede a una página con formulario para iniciar sesión Login",
+            "result": {
+              "status": "passed",
+              "duration": 2644000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "un usuario introduce un username válido, un password válido y hace click en el botón Login",
+            "result": {
+              "status": "passed",
+              "duration": 3339000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Valida que efectivamente la URL es la del dashboard una vez inicia sesión correctamente",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "pruebas-en-página-login;tc-2.-login-inválido:-usuario-y-contraseña-inválida",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "TC-2. Login inválido: usuario y contraseña inválida",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "un usuario accede a una página con formulario para iniciar sesión Login",
+            "result": {
+              "status": "passed",
+              "duration": 804000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "un usuario introduce un username inválido, introduce un password inválido y hace click en el botón Login",
+            "result": {
+              "status": "passed",
+              "duration": 2358000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "muestra un mensaje de error, usuario y contraseña inválida",
+            "result": {
+              "status": "passed",
+              "duration": 365000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "pruebas-en-página-login;tc-3.-login-inválido:-usuario-y-contraseña-vacía",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "TC-3. Login inválido: usuario y contraseña vacía",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "un usuario accede a una página con formulario para iniciar sesión Login",
+            "result": {
+              "status": "passed",
+              "duration": 918000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "un usuario hace click en el botón Login con los campos username y password vacío",
+            "result": {
+              "status": "passed",
+              "duration": 601000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "muestra un mensaje de error, usuario y contraseña vacía",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "pruebas-en-página-login;tc-4.-login-inválido:-usuario-válido-y-contraseña-vacía",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "TC-4. Login inválido: usuario válido y contraseña vacía",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "un usuario accede a una página con formulario para iniciar sesión Login",
+            "result": {
+              "status": "passed",
+              "duration": 633000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "un usuario introduce un username válido, el campo password lo deja vacío y hace click en el botón Login",
+            "result": {
+              "status": "passed",
+              "duration": 1299000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "muestra un mensaje de error, contraseña vacía",
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "pruebas-en-página-login;tc-5.-login-inválido:-usuario-vacio-y-contraseña-válida",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "TC-5. Login inválido: usuario vacio y contraseña válida",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "un usuario accede a una página con formulario para iniciar sesión Login",
+            "result": {
+              "status": "passed",
+              "duration": 641000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "un usuario deja el campo username vacío, introducce un password válido y hace click en el botón Login",
+            "result": {
+              "status": "passed",
+              "duration": 1445000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "muestra mensaje de error, usuario vacío",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "pruebas-en-página-login;tc-6.-login-inválido:-usuario-inválido-y-contraseña-válida",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "TC-6. Login inválido: usuario inválido y contraseña válida",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "un usuario accede a una página con formulario para iniciar sesión Login",
+            "result": {
+              "status": "passed",
+              "duration": 814000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "un usuario introduce un username inválido, introducce un password válido y hace click en el botón Login",
+            "result": {
+              "status": "passed",
+              "duration": 2136000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "muestra un mensaje de error, usuario inválido",
+            "result": {
+              "status": "passed",
+              "duration": 264000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "pruebas-en-página-login;tc-7.-login-inválido:-usuario-válido-y-contraseña-inválida",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "TC-7. Login inválido: usuario válido y contraseña inválida",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "un usuario accede a una página con formulario para iniciar sesión Login",
+            "result": {
+              "status": "passed",
+              "duration": 646000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "un usuario introduce un username válido, introducce un password inválido y hace click en el botón Login",
+            "result": {
+              "status": "passed",
+              "duration": 2145000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "muestra mensaje de error, contraseña inválida",
+            "result": {
+              "status": "passed",
+              "duration": 297000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

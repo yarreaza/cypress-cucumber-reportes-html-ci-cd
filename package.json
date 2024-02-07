@@ -1,0 +1,44 @@
+{
+  "name": "cypress-cucumber-reportes-html",
+  "version": "1.0.0",
+  "description": "Cypress + Cucumber + Reportes HTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yarreaza/cypress-cucumber-reportes-html.git"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "reportes",
+    "html",
+    "test",
+    "testing",
+    "qa",
+    "gherkin"
+  ],
+  "author": "Yelitza Arreaza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yarreaza/cypress-cucumber-reportes-html/issues"
+  },
+  "homepage": "https://github.com/yarreaza/cypress-cucumber-reportes-html#readme",
+  "devDependencies": {
+    "cypress": "^13.6.4",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "multiple-cucumber-html-reporter": "^3.6.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/e2e/step_definitions",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}
