@@ -16,6 +16,5 @@ jobs:
       - name: Cypress run      
         uses: cypress-io/github-action@v6
         with:
-          build: npx cypress run 
-          browser: chrome
+         run: npm run ui-regression
    
