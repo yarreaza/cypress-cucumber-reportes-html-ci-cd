@@ -23,6 +23,9 @@ jobs:
         
         with: 
          run: npx cypress run
-         
-      - name: Generate HTML Report
-        run: npx multiple-cucumber-html-reporter --jsonDir=cypress/cucumber-json --reportPath=./reports/cucumber 
+
+      - name: Install multiple-cucumber-html-reporter globally
+        run: npm install -g multiple-cucumber-html-reporter
+
+      - name: Run Cucumber HTML Reporter
+        run: npx multiple-cucumber-html-reporter --jsonDir=cypress/cucumber-json --reportPath=./reports/cucumber
