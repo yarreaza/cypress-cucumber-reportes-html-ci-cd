@@ -20,4 +20,4 @@ jobs:
          run: npx cypress run
          
       - name: Generate HTML Report
-        run: npx multiple-cucumber-html-reporter --report-dir=reports --report-name='My Test Report' --metadata-file=metadata.json
+        run: npx multiple-cucumber-html-reporter --jsonDir=cypress/cucumber-json --reportPath=./reports/cucumber 
