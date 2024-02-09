@@ -22,7 +22,7 @@
             "name": "un usuario accede a una página con formulario para iniciar sesión Login",
             "result": {
               "status": "passed",
-              "duration": 2740000000
+              "duration": 3120000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "un usuario introduce un username válido, un password válido y hace click en el botón Login",
             "result": {
               "status": "passed",
-              "duration": 3089000000
+              "duration": 3606000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "Valida que efectivamente la URL es la del dashboard una vez inicia sesión correctamente",
             "result": {
               "status": "passed",
-              "duration": 20000000
+              "duration": 21000000
             }
           }
         ]
@@ -62,7 +62,7 @@
             "name": "un usuario accede a una página con formulario para iniciar sesión Login",
             "result": {
               "status": "passed",
-              "duration": 655000000
+              "duration": 720000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "un usuario introduce un username inválido, introduce un password inválido y hace click en el botón Login",
             "result": {
               "status": "passed",
-              "duration": 1864000000
+              "duration": 2175000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "muestra un mensaje de error, usuario y contraseña inválida",
             "result": {
               "status": "passed",
-              "duration": 296000000
+              "duration": 331000000
             }
           }
         ]
@@ -102,7 +102,7 @@
             "name": "un usuario accede a una página con formulario para iniciar sesión Login",
             "result": {
               "status": "passed",
-              "duration": 577000000
+              "duration": 671000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "un usuario hace click en el botón Login con los campos username y password vacío",
             "result": {
               "status": "passed",
-              "duration": 503000000
+              "duration": 528000000
             }
           },
           {
@@ -122,7 +122,7 @@
             "name": "muestra un mensaje de error, usuario y contraseña vacía",
             "result": {
               "status": "passed",
-              "duration": 17000000
+              "duration": 16000000
             }
           }
         ]
@@ -142,7 +142,7 @@
             "name": "un usuario accede a una página con formulario para iniciar sesión Login",
             "result": {
               "status": "passed",
-              "duration": 556000000
+              "duration": 640000000
             }
           },
           {
@@ -152,7 +152,7 @@
             "name": "un usuario introduce un username válido, el campo password lo deja vacío y hace click en el botón Login",
             "result": {
               "status": "passed",
-              "duration": 1292000000
+              "duration": 1477000000
             }
           },
           {
@@ -162,7 +162,7 @@
             "name": "muestra un mensaje de error, contraseña vacía",
             "result": {
               "status": "passed",
-              "duration": 24000000
+              "duration": 15000000
             }
           }
         ]
@@ -182,7 +182,7 @@
             "name": "un usuario accede a una página con formulario para iniciar sesión Login",
             "result": {
               "status": "passed",
-              "duration": 597000000
+              "duration": 625000000
             }
           },
           {
@@ -192,7 +192,7 @@
             "name": "un usuario deja el campo username vacío, introducce un password válido y hace click en el botón Login",
             "result": {
               "status": "passed",
-              "duration": 1279000000
+              "duration": 1320000000
             }
           },
           {
@@ -222,7 +222,7 @@
             "name": "un usuario accede a una página con formulario para iniciar sesión Login",
             "result": {
               "status": "passed",
-              "duration": 507000000
+              "duration": 562000000
             }
           },
           {
@@ -232,7 +232,7 @@
             "name": "un usuario introduce un username inválido, introducce un password válido y hace click en el botón Login",
             "result": {
               "status": "passed",
-              "duration": 1894000000
+              "duration": 1994000000
             }
           },
           {
@@ -242,7 +242,7 @@
             "name": "muestra un mensaje de error, usuario inválido",
             "result": {
               "status": "passed",
-              "duration": 319000000
+              "duration": 271000000
             }
           }
         ]
@@ -262,7 +262,7 @@
             "name": "un usuario accede a una página con formulario para iniciar sesión Login",
             "result": {
               "status": "passed",
-              "duration": 585000000
+              "duration": 515000000
             }
           },
           {
@@ -272,7 +272,7 @@
             "name": "un usuario introduce un username válido, introducce un password inválido y hace click en el botón Login",
             "result": {
               "status": "passed",
-              "duration": 2002000000
+              "duration": 1907000000
             }
           },
           {
@@ -282,7 +282,7 @@
             "name": "muestra mensaje de error, contraseña inválida",
             "result": {
               "status": "passed",
-              "duration": 305000000
+              "duration": 275000000
             }
           }
         ]

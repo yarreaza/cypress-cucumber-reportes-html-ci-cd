@@ -4,7 +4,9 @@
   "description": "Cypress + Cucumber + Reportes HTML",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:runner": "cypress open --e2e --browser chrome",
+    "ui-regression": "cypress run --browser chrome --spec cypress/e2e/features/*"
   },
   "repository": {
     "type": "git",
