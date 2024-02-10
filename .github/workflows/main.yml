@@ -17,6 +17,9 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
          run: npm run ui-regression
-   
+
+      - name: Set output
+        run: echo "artifactPath=tests/reports/cucumber" >> $GITHUB_OUTPUT
+
    
           
