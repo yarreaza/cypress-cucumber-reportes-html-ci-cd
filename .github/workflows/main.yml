@@ -18,3 +18,15 @@ jobs:
         with:
          run: npm run ui-regression
    
+      - name: Reporte HTML
+        with:
+          run: node cucumber-html-report.js
+          
+      - name: Set output
+        id: results
+        run: echo "artifactPath=tests/reports/cucumber" >> $GITHUB_OUTPUT
+        
+      - uses: actions/upload-artifact@v3
+        with:
+          name: test-report
+          path: ${{ steps.results.outputs.artifactPath }}
