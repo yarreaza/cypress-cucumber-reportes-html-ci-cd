@@ -20,6 +20,11 @@ jobs:
 
       - name: Set output
         run: echo "artifactPath=tests/reports/cucumber" >> $GITHUB_OUTPUT
+                
+      - uses: actions/upload-artifact@v3
+        with:
+          run: node cucumber-html-report.js
+        
 
    
           
