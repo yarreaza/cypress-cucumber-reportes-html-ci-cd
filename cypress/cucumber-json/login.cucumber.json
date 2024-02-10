@@ -22,7 +22,7 @@
             "name": "un usuario accede a una página con formulario para iniciar sesión Login",
             "result": {
               "status": "passed",
-              "duration": 3120000000
+              "duration": 3255000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "un usuario introduce un username válido, un password válido y hace click en el botón Login",
             "result": {
               "status": "passed",
-              "duration": 3606000000
+              "duration": 4729000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "Valida que efectivamente la URL es la del dashboard una vez inicia sesión correctamente",
             "result": {
               "status": "passed",
-              "duration": 21000000
+              "duration": 23000000
             }
           }
         ]
@@ -62,7 +62,7 @@
             "name": "un usuario accede a una página con formulario para iniciar sesión Login",
             "result": {
               "status": "passed",
-              "duration": 720000000
+              "duration": 897000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "un usuario introduce un username inválido, introduce un password inválido y hace click en el botón Login",
             "result": {
               "status": "passed",
-              "duration": 2175000000
+              "duration": 2501000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "muestra un mensaje de error, usuario y contraseña inválida",
             "result": {
               "status": "passed",
-              "duration": 331000000
+              "duration": 365000000
             }
           }
         ]
@@ -102,7 +102,7 @@
             "name": "un usuario accede a una página con formulario para iniciar sesión Login",
             "result": {
               "status": "passed",
-              "duration": 671000000
+              "duration": 895000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "un usuario hace click en el botón Login con los campos username y password vacío",
             "result": {
               "status": "passed",
-              "duration": 528000000
+              "duration": 652000000
             }
           },
           {
@@ -122,7 +122,7 @@
             "name": "muestra un mensaje de error, usuario y contraseña vacía",
             "result": {
               "status": "passed",
-              "duration": 16000000
+              "duration": 23000000
             }
           }
         ]
@@ -142,7 +142,7 @@
             "name": "un usuario accede a una página con formulario para iniciar sesión Login",
             "result": {
               "status": "passed",
-              "duration": 640000000
+              "duration": 742000000
             }
           },
           {
@@ -152,7 +152,7 @@
             "name": "un usuario introduce un username válido, el campo password lo deja vacío y hace click en el botón Login",
             "result": {
               "status": "passed",
-              "duration": 1477000000
+              "duration": 1564000000
             }
           },
           {
@@ -162,7 +162,7 @@
             "name": "muestra un mensaje de error, contraseña vacía",
             "result": {
               "status": "passed",
-              "duration": 15000000
+              "duration": 20000000
             }
           }
         ]
@@ -182,7 +182,7 @@
             "name": "un usuario accede a una página con formulario para iniciar sesión Login",
             "result": {
               "status": "passed",
-              "duration": 625000000
+              "duration": 626000000
             }
           },
           {
@@ -192,7 +192,7 @@
             "name": "un usuario deja el campo username vacío, introducce un password válido y hace click en el botón Login",
             "result": {
               "status": "passed",
-              "duration": 1320000000
+              "duration": 1481000000
             }
           },
           {
@@ -202,7 +202,7 @@
             "name": "muestra mensaje de error, usuario vacío",
             "result": {
               "status": "passed",
-              "duration": 14000000
+              "duration": 13000000
             }
           }
         ]
@@ -222,7 +222,7 @@
             "name": "un usuario accede a una página con formulario para iniciar sesión Login",
             "result": {
               "status": "passed",
-              "duration": 562000000
+              "duration": 605000000
             }
           },
           {
@@ -232,7 +232,7 @@
             "name": "un usuario introduce un username inválido, introducce un password válido y hace click en el botón Login",
             "result": {
               "status": "passed",
-              "duration": 1994000000
+              "duration": 2215000000
             }
           },
           {
@@ -242,7 +242,7 @@
             "name": "muestra un mensaje de error, usuario inválido",
             "result": {
               "status": "passed",
-              "duration": 271000000
+              "duration": 311000000
             }
           }
         ]
@@ -262,7 +262,7 @@
             "name": "un usuario accede a una página con formulario para iniciar sesión Login",
             "result": {
               "status": "passed",
-              "duration": 515000000
+              "duration": 573000000
             }
           },
           {
@@ -272,7 +272,7 @@
             "name": "un usuario introduce un username válido, introducce un password inválido y hace click en el botón Login",
             "result": {
               "status": "passed",
-              "duration": 1907000000
+              "duration": 1994000000
             }
           },
           {
@@ -282,7 +282,7 @@
             "name": "muestra mensaje de error, contraseña inválida",
             "result": {
               "status": "passed",
-              "duration": 275000000
+              "duration": 313000000
             }
           }
         ]
