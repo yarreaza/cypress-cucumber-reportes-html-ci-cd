@@ -1,7 +1,7 @@
 name: Cypress Tests
 on: [push]
 jobs:
-  pro:
+  cypress-run:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -13,20 +13,8 @@ jobs:
       - name: Install Dependencies
         run: npm install
         
-      - name: Cypress run      
-        uses: cypress-io/github-action@v6
-        with:
-         run: npm run ui-regression
-
-      - name: Set output
-        id: results
-        run: echo "artifactPath=tests/reports/cucumber" >> $GITHUB_OUTPUT
-                
-      - uses: actions/upload-artifact@v3
-        with:
-          run: node cucumber-html-report.js
-          path: ${{ steps.results.outputs.artifactPath }}
+      - name: cypress-report
+        uses: duynhanf/cypress-report@v2 
         
-
-   
-          
+        with: 
+         run: npx cypress run
